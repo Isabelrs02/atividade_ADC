@@ -8,6 +8,7 @@ Descrição do Projeto
 
 O objetivo principal deste projeto é explorar a funcionalidade do conversor ADC do Raspberry Pi Pico W, convertendo sinais analógicos em digitais para controlar dispositivos de saída e criar interatividade entre hardware e software.
 
+
 Funcionalidades
 
 1. Conversão ADC:
@@ -26,7 +27,8 @@ Os valores convertidos são mapeados para coordenadas do display, movimentando u
 
 4. Interatividade com Botões:
 
-Controle adicional para alternar entre ligar/desligar LEDs e o display, utilizando o botão central do joystick e um botão externo.
+Controle adicional para alternar entre ligar/desligar LEDs e o display, utilizando o botão central do joystick e botão A .
+
 
 Componentes Utilizados
 
@@ -45,6 +47,8 @@ LEDs RGB: Controlados por PWM
 Botão Externo: Para alternância de estados
 
 Outros :  Resistor para o botão externo ; Fios de conexão
+
+
 
 Funcionamento Técnico do Conversor ADC
 
@@ -81,12 +85,12 @@ Compile e carregue o código no Raspberry Pi Pico W.
 
 Movimente o joystick para controlar os LEDs e o quadrado no display.
 
-Use os botões para alternar entre os modos de funcionamento.
+Use o botão A para alternar entre os modos de funcionamento.
 
 
 Links
 
-Repositório GitHub: 
+Repositório GitHub: https://github.com/Isabelrs02/atividade_ADC.git
 
-Demonstração no YouTube: 
+Demonstração no YouTube: https://youtu.be/plODcX0wh68?si=JIWkEjNId7nXLXqw
 
