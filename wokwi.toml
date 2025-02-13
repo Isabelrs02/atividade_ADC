@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build\atividade_ADC.hex'
+elf = 'build\atividade_ADC.uf2'
